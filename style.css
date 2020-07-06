@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 41px;
+}
+
+/* === Start Reusable === */
+h2 {
+  font-size: 34px;
+}
+
+h2, h3 {
+  font-weight: 500;
+}
+
+p {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFD019;
+}
+
+.btn {
+  background-color: #000;
+  color: #FFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.btn:hover {
+  border: 1px solid #000;
+  background-color: #FFF;
+  color: #000;
+}
+/* === End Reusable === */
+
+/* === Start Header === */
+.navbar .logo {
+  height: 70px;
+}
+
+.navbar .nav-link {
+  
+  margin: 0 10px;
+  color: #707070;
+}
+/* === End Header === */
+
+/* === Start Carousel Section=== */
+.banner {
+  background-image: url("images/dooted-qube.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 7%;
+}
+
+.carousel-item {
+  background-image: url("images/product-text.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5%;
+  padding-bottom: 50px;
+}
+
+.carousel-item p {
+  padding: 20px 0;
+}
+
+.carousel-indicators li {
+    background-color: #CECECE;
+    height: 10px;
+    width: 16px;
+    border-radius: 6px;
+    border: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.carousel-indicators .active {
+  background-image: linear-gradient(to right, #FF9C35, #FFD019);
+  width: 40px;
+}
+/* === Start Carousel Section=== */
